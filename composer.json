@@ -1,0 +1,18 @@
+{
+  "require": {
+    "php": "~8.0.0 || ~8.1.0",
+    "ext-json": "*",
+    "sendgrid/sendgrid": "8.0.1",
+    "vlucas/phpdotenv": "v5.4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SendGridCampaign\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SendGridCampaign\\": "test"
+    }
+  }
+}
